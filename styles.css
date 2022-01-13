@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #ead7bb 0%, #f3ece3 50%);
+  /* height: 100vh; */
+}
+
+h1 {
+  font-size: 1.7rem;
+  margin: 5px 0;
+}
+
+header {
+  height: 10vh;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f6511e;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+ul li {
+  padding: 0 10px;
+}
+
+ul a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul a.active {
+  color: #f6511e;
+  font-weight: bold;
+}
+
+ul a:hover {
+  color: #f6511e;
+}
+
+.header-link {
+  background: #f6511e;
+  color: #fff;
+  width: 80px;
+  height: 30px;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+}
+
+.header-link:hover {
+  transform: scale(1.05);
+}
+
+.header-link a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 20px auto;
+}
+
+.navigation {
+  margin: 2% 0;
+  font-weight: bold;
+}
+.navigation .page-navigation {
+  color: #f6511e;
+}
+
+/* section.blog-main {
+} */
+
+.blog-title,
+.blog-heading {
+  text-align: center;
+}
+
+.blog-title {
+  text-transform: uppercase;
+  color: rgb(87, 86, 86);
+  font-weight: bold;
+}
+
+/* footer section */
+footer {
+  padding: 50px;
+  background: #04142a;
+  color: #ffff;
+}
+
+footer .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+footer h4 {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+footer .logo {
+  margin-bottom: 10px;
+}
+
+footer li,
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 3px 0;
+  color: #fff3f380;
+}
+
+footer a,
+footer p {
+  color: #fff3f380;
+}
+
+footer form {
+  display: flex;
+  margin: 10px 0;
+}
+
+form input {
+  height: 30px;
+  max-width: 180px;
+  border: none;
+}
+
+form button {
+  background: #f6511e;
+  border: none;
+  color: #ffff;
+  height: 30px;
+  width: 50px;
+  font-size: 0.8rem;
+}
